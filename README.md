@@ -31,40 +31,7 @@
 ### 👤 Patient UI
 - Patient Dashboard: “My Treatment”, “Download Reports”
 - Visual treatment timeline
-- Report download center (PDF/Image download UI only)
-
----
-
-## 🧱 Project Structure
-
-HairCarePlus/
-├── app/ # Navigation and routing
-├── assets/images/ # Logos, placeholders, UI images
-├── components/ # Reusable UI components (e.g., Buttons, Cards)
-├── constants/ # Global constants (colors, sizes, themes)
-├── context/ # Global state and authentication context
-├── data/ # Sample/mock data files (until backend is ready)
-├── hooks/ # Custom React hooks
-├── app.json # Expo configuration
-├── package.json
-├── tsconfig.json
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
-## 🎨 Design Guidelines
-
-- **Color Palette**: Soft blues (`#b3d9ff`, `#e6f2ff`), whites, and soft shadows
-- **Theme**: Clean, professional medical theme
-- **Typography**: Sans-serif, readable on mobile
-- **UI Elements**:
-  - Rounded cards
-  - Shadowed containers
-  - Medical icons for intuitive flow
+- Report download center (PDF/Image download UI only
 
 ---
 
@@ -103,16 +70,3 @@ PDF generation, image uploads, and authentication are currently UI-only – back
 
  Enable push notifications for appointments
 
- Add dark mode support
-
-🤝 Contributing
-Fork the repository
-
-Create a feature branch (feat/new-feature)
-
-Commit your changes
-
-Open a Pull Request 🚀
-
-📄 License
-MIT License © 2025 Parth Gosavi
