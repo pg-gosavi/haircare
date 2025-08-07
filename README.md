@@ -38,11 +38,10 @@
 
 ## 🖼️ Screenshots
 
-> Add these screenshots in a `/screenshots` folder in the root of your project and link them here.
 
 | Splash Screen | Login Screen | Doctor Dashboard | Patient Dashboard |
 |---------------|---------------|------------------|------------------|
-| ![Splash](./screenshots/splash.jpg) | ![Login](./screenshots/login.png) | ![Doctor Dashboard](./screenshots/doctor-dashboard.png) | ![Timeline](./screenshots/patient-dashboard.png) |
+| ![Splash](./screenshots/splash.jpg) | ![Login](./screenshots/login.jpg) | ![Doctor Dashboard](./screenshots/doctor-dashboard.jpg) | ![Timeline](./screenshots/patient-dashboard.jpg) |
 
 ---
 
