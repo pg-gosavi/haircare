@@ -42,7 +42,7 @@
 
 | Splash Screen | Login Screen | Doctor Dashboard | Patient Dashboard |
 |---------------|---------------|------------------|------------------|
-| ![Splash](./screenshots/splash.png) | ![Login](./screenshots/login.png) | ![Doctor Dashboard](./screenshots/doctor-dashboard.png) | ![Timeline](./screenshots/patient-dashboard.png) |
+| ![Splash](./screenshots/splash.jpg) | ![Login](./screenshots/login.png) | ![Doctor Dashboard](./screenshots/doctor-dashboard.png) | ![Timeline](./screenshots/patient-dashboard.png) |
 
 ---
 
