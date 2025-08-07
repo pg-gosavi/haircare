@@ -1,72 +1,80 @@
 # 💇‍♀️ HairCare+ – Hair Clinic Management System (Frontend)
 
-> A modern, mobile-first React Native app (frontend-only) for managing hair clinic workflows. Built with **Expo** and **TypeScript**, this app is designed for two user roles: **Doctor/Receptionist** and **Patient**. It helps track treatment timelines, upload patient photos, and generate visual progress reports.
+> A modern, **mobile-first React Native app** (frontend-only) built with **Expo** and **TypeScript** for managing hair clinic workflows.  
+> Designed for two user roles: **Doctor/Receptionist** and **Patient**, it helps track treatment progress, upload patient photos, and generate visual reports.
 
 ---
 
-## 📱 App Features (Frontend)
+## 📱 Features (Frontend)
 
 ### 🔐 Authentication UI
-- Login/Signup screens with user role selection (Doctor or Patient)
-- Forgot Password UI
-- Onboarding screens to introduce app features
+- Login/Signup screens with role selection (Doctor or Patient)
+- Forgot Password screen
+- Onboarding walkthrough to introduce app features
 - Splash screen with logo and tagline
 
-### 👨‍⚕️ Doctor / Receptionist UI
-- Dashboard screen with:
+### 👨‍⚕️ Doctor / Receptionist Interface
+- **Dashboard** with:
   - Add New Patient
   - View Existing Patients
   - Recent Activity
   - Payment Records
-- Patient Type Selector (New vs Existing)
-- Add New Patient form
-- Search Existing Patients
-- Patient Profile with:
-  - Timeline (sessions, notes, uploads)
-  - Photo Upload (Front/Left/Right/Back slots with notes)
-  - Payment summary
-  - Export to PDF (UI only)
+- Patient Type Selector (New / Existing)
+- Add New Patient Form
+- Search Patient
+- Patient Profile includes:
+  - Treatment Timeline (sessions, notes, uploads)
+  - Photo Upload (Front / Left / Right / Back views with notes)
+  - Payment Summary
+  - Export Report (UI only – PDF button)
 - Settings screen
 
-### 👤 Patient UI
-- Patient Dashboard: “My Treatment”, “Download Reports”
-- Visual treatment timeline
-- Report download center (PDF/Image download UI only
+### 👤 Patient Interface
+- Dashboard: “My Treatment”, “Download Reports”
+- Visual Treatment Timeline
+- Report Download Center (PDF/Image – UI only)
+
+---
+
+## 🖼️ Screenshots
+
+> Add these screenshots in a `/screenshots` folder in the root of your project and link them here.
+
+| Splash Screen | Login Screen | Doctor Dashboard | Patient Dashboard |
+|---------------|---------------|------------------|------------------|
+| ![Splash](./screenshots/splash.png) | ![Login](./screenshots/login.png) | ![Doctor Dashboard](./screenshots/doctor-dashboard.png) | ![Timeline](./screenshots/patient-dashboard.png) |
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/HairCarePlus.git
 cd HairCarePlus
-2. Install dependencies
-bash
-Copy
-Edit
+
 npm install
 # or
-yarn
-3. Start the development server
-bash
-Copy
-Edit
-npx expo start
+yarn npx expo start
+```
+
 📌 Notes
-This is the frontend-only version. Backend integration with Firebase or a Node.js API will follow.
+This is a frontend-only version.
 
-All data currently uses mocked states or static content.
+All features currently use mocked data or static content.
 
-PDF generation, image uploads, and authentication are currently UI-only – backend integration is planned in upcoming versions.
+PDF generation, image uploads, and authentication are UI-only at this stage.
+
+Backend integration is planned in the next version.
+
+---
 
 📅 Upcoming Milestones
- Connect to Firebase Authentication and Firestore
+✅ Connect to Firebase Authentication and Firestore
 
- Enable real image uploads using Firebase Storage
+✅ Enable real image uploads using Firebase Storage
 
- Add PDF report generation
+✅ Add dynamic PDF report generation
 
- Enable push notifications for appointments
-
+✅ Implement push notifications for appointments
